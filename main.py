@@ -3,7 +3,7 @@
 from google import genai
 import streamlit as st
 import os 
-st.title("AptechBTK CHAT BOT SYSTEM APKY SAWAL OR UNKA TASALI BAKHS JAwAB")
+st.title("AptechBTK CHAT BOT")
 
 googleAPIKEY=os.getenv("meriAPI_key")
 
