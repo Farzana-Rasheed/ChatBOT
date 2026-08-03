@@ -5,7 +5,7 @@ import streamlit as st
 import os 
 st.title("AptechBTK CHAT BOT SYSTEM APKY SAWAL OR UNKA TASALI BAKHS JAwAB")
 
-googleAPIKEY=os.get_env("meriAPI_key")
+googleAPIKEY=os.getenv("meriAPI_key")
 
 
 client = genai.Client(api_key=googleAPIKEY)
